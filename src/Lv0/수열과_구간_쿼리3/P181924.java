@@ -1,4 +1,4 @@
-package Lv0;
+package Lv0.수열과_구간_쿼리3;
 
 import java.util.Arrays;
 

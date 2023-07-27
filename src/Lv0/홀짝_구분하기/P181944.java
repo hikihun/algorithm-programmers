@@ -1,4 +1,4 @@
-package Lv0;
+package Lv0.홀짝_구분하기;
 
 import java.util.Scanner;
 

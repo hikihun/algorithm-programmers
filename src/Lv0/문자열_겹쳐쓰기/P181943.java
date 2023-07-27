@@ -1,4 +1,4 @@
-package Lv0;
+package Lv0.문자열_겹쳐쓰기;
 
 /**
  * 문자열 겹쳐쓰기

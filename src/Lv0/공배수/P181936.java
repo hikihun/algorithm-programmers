@@ -1,4 +1,4 @@
-package Lv0;
+package Lv0.공배수;
 
 /**
  * 공배수

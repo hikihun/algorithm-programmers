@@ -1,4 +1,4 @@
-package Lv0;
+package Lv0.flag에_따라_다른_값_반환하기;
 
 /**
  * flag에 따라 다른 값 반환하기

@@ -1,4 +1,4 @@
-package Lv0;
+package Lv0.이어_붙인_수;
 
 /**
  * 이어 붙인 수

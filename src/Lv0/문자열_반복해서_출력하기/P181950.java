@@ -1,4 +1,4 @@
-package Lv0;
+package Lv0.문자열_반복해서_출력하기;
 
 import java.util.Scanner;
 
