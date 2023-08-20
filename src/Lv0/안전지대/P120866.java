@@ -1,6 +1,4 @@
-package Lv0;
-
-import java.util.Arrays;
+package Lv0.안전지대;
 
 /**
  * 안전지대
@@ -72,7 +70,9 @@ public class P120866 {
 
     public static void main(String[] args) {
         P120866 T = new P120866();
-
+        System.out.println(T.solution(new int[][]{{0, 0, 0, 0, 0}, {0, 0, 0, 0, 0}, {0, 0, 0, 0, 0}, {0, 0, 1, 0, 0}, {0, 0, 0, 0, 0}}));
+        System.out.println(T.solution(new int[][]{{0, 0, 0, 0, 0}, {0, 0, 0, 0, 0}, {0, 0, 0, 0, 0}, {0, 0, 1, 1, 0}, {0, 0, 0, 0, 0}}));
+        System.out.println(T.solution(new int[][]{{1, 1, 1, 1, 1, 1}, {1, 1, 1, 1, 1, 1}, {1, 1, 1, 1, 1, 1}, {1, 1, 1, 1, 1, 1}, {1, 1, 1, 1, 1, 1}, {1, 1, 1, 1, 1, 1}}));
     }
 
 }
