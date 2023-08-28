@@ -1,7 +1,6 @@
 package Lv2.가장_큰_수;
 
 import java.util.Arrays;
-import java.util.Collections;
 
 public class P42746 {
 
