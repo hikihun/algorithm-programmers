@@ -10,16 +10,24 @@ public class P64061 {
         Stack<Integer> stack = new Stack<>();
         stack.push(0);
 
-        for (int move : moves) {
+        for (int[] arr : board) {
+            for (int i : arr) {
+                System.out.print(i + " ");
+
+            }
+            System.out.println();
+        }
+
+        for (int m : moves) {
             for (int j = 0; j < board.length; j++) {
-                if (board[j][move - 1] != 0) {
-                    if (stack.peek() == board[j][move - 1]) {
+                if (board[j][m - 1] != 0) {
+                    if (stack.peek() == board[j][m - 1]) {
                         stack.pop();
                         answer += 2;
                     } else {
-                        stack.push(board[j][move - 1]);
+                        stack.push(board[j][m - 1]);
                     }
-                    board[j][move - 1] = 0;
+                    board[j][m - 1] = 0;
                     break;
                 }
             }
