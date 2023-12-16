@@ -19,7 +19,7 @@ public class Boj11053 {
         }
 
         dp[0] = 1;
-        int max = 0;
+
         for (int i = 1; i < N; i++) {
             dp[i] = 1;
             for (int j = 0; j < i; j++) {
@@ -27,9 +27,12 @@ public class Boj11053 {
                     dp[i] = dp[j] + 1;
                 }
             }
-            max = Math.max(max, dp[i]);
         }
 
+        int max = 0;
+        for (int i = 0; i < N; i++) {
+            max = Math.max(max, dp[i]);
+        }
         System.out.println(max);
     }
 
