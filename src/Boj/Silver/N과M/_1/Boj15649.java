@@ -1,4 +1,4 @@
-package Boj.Silver.N과M_1;
+package Boj.Silver.N과M._1;
 
 import java.io.BufferedReader;
 import java.io.IOException;
