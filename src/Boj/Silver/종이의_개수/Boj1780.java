@@ -3,7 +3,6 @@ package Boj.Silver.종이의_개수;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.Arrays;
 import java.util.StringTokenizer;
 
 public class Boj1780 {
